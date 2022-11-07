@@ -1,0 +1,20 @@
+.userBox {
+  padding: 2em;
+  max-width: 900px;
+  margin: auto;
+}
+
+.userItem {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.userItem:active {
+  background-color: #5ff1e5;
+}
+
+.functionBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
